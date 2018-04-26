@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1523025639 source:c:\users\alumno\desktop\recursiva factorial\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1523027657 source:c:\users\alumno\desktop\programacion_1_laboratorio_1-master\clase4\recursiva factorial\main.c
+	<stdio.h>
+	<stdlib.h>
+

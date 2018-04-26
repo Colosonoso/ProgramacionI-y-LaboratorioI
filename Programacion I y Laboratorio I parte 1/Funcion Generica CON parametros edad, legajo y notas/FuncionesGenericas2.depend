@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1522941472 source:c:\users\alumno\desktop\funcionesgenericas2\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1522927152 source:c:\users\pc\desktop\funcionesgenericas2\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1523019080 source:c:\users\alumno\desktop\funcion generica con parametros edad, legajo y notas\main.c
+	<stdio.h>
+	<stdlib.h>
+
