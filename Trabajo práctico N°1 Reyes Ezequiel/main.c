@@ -9,6 +9,8 @@ int main()
     float restar;
     float multiplicar;
     float dividir;
+    int flagnumero1=1;
+    int flagnumero2=1;
     int factorialnumerouno;
     int factorialnumerodos;
     int opcion=0;
@@ -28,11 +30,7 @@ int main()
       printf("c. Calcular la division de ambos numeros\n");
       printf("d. Calcular la multiplicacion de ambos numeros\n");
       printf("4- Los resultados son: \n");
-      printf("a. el resultado de la suma es :\n");
-      printf("b. el resultado de la resta es :\n");
-      printf("c. el resultado de la division es: \n");
-      printf("d. el resultado de la multiplicacion es :\n");
-      printf("e. el resultado del factorial es :\n");
+      printf("5-Salir");
       scanf("%d", &opcion);
 
       switch(opcion)
@@ -40,34 +38,42 @@ int main()
       case 1:
       printf(" Ingrese el primer operando ");
       scanf("%f", &numerouno);
+      flagnumero1=1;
       system("pause");
       break;
 
       case 2:
       printf(" Ingrese el segundo operando ");
       scanf("%f", &numerodos);
+      flagnumero2=1;
       system("pause");
       break;
 
 
       case 3:
+
+      if(flagnumero1==1 && flagnumero2==1)
+      {
+
       sumar=suma(numerouno,numerodos);
       restar=resta(numerouno,numerodos);
       multiplicar=multiplicacion(numerouno,numerodos);
       dividir=division(numerouno,numerodos);
       system("pause");
 
-      printf("Calculando la operacion");
+      printf("Calculando la operacion\n");
+     }
 
-      break;
+      else
+        {
+          printf("Error. Se ha ingresado algo que no es un numero, debe ingresar un numero");
+        }
+        break;
 
       case 4:
 
-      printf("La suma con el numerouno y el numeroDos es %f", numerouno,numerodos,suma);
-      printf("La resta con el numerouno y el numeroDos es %f", numerouno,numerodos,resta);
-      printf("La division con el numerouno y el numeroDos es %f", numerouno,numerodos,division);
-      printf("La multiplicacion con el numerouno y el numeroDos es %f", numerouno,numerodos,multiplicacion);
-      case 8:
+
+      case 5:
       seguir= 'n';
       break;
       }
