@@ -46,29 +46,15 @@ int main()
 
 
       case 3:
-      printf(" El resultado de la suma del primero operando y el segundo operando es : %f",numerouno + numerodos);
+      sumar=suma(numerouno,numerodos);
+      restar=resta(numerouno,numerodos);
+      multiplicar=multiplicacion(numerouno,numerodos);
+      dividir=division(numerouno,numerodos);
       system("pause");
+
+      printf("Calculando la operacion");
+
       break;
-
-      case 4:
-      printf("El resultado de la resta del primer operando y el segundo operando es : %f", numerouno - numerodos);
-      system("pause");
-      break;
-
-      case 5:
-      printf("El resultado de la multiplicacion del primero operando y el segundo operando es : %f", numerouno * numerodos);
-      system("pause");
-      break;
-
-      case 6:
-      printf("El resultado de la division del primero operando y el segundo operando es: %f", numerouno / numerodos);
-      system("pause");
-      break;
-
-
-      case 7:
-      printf("El resultado del factorial del primer operando es %d", factorialnumerouno);
-      factorialnumerouno=factorialprimeroperando()
 
 
       case 8:

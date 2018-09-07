@@ -37,21 +37,11 @@ float multiplicacion(float primeroperando,float segundooperando)
 float division(float primeroperando, float segundooperando)
 {
 
- float resultadodeladivision;
+   float resultadodeladivision;
 
-   if(segundooperando==0)
-    {
+  resultadodeladivision=primeroperando / segundooperando;
+  return resultadodeladivision;
 
-
-
-    }
-
-    else
-    {
-      resultadodeladivision=(float) primeroperando / segundooperando;
-
-    }
-    return resultadodeladivision;
 }
 
 int factorialprimeroperando(int primeroperando)
