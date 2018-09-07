@@ -97,12 +97,13 @@ int main()
 
            else
            {
-            printf("El resultado del factorial del primer numero es %f\n",numerouno,factorialnumerouno);
-            printf("El resultado del factorial del segundo numero es %f\n",numerodos,factorialnumerodos);
+            printf("El resultado del factorial del primer numero es %d\n",numerouno,factorialnumerouno);
+            printf("El resultado del factorial del segundo numero es %d\n",numerodos,factorialnumerodos);
            }
 
          numerouno=0;
          numerodos=0;
+         system("pause");
          break;
          }
       case 5:

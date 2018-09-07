@@ -1,10 +1,10 @@
 # depslib dependency file v1.0
-1536351624 source:c:\users\usuario\desktop\trabajo práctico n°1 reyes ezequiel\main.c
+1536352470 source:c:\users\usuario\desktop\trabajo práctico n°1 reyes ezequiel\main.c
 	<stdio.h>
 	<stdlib.h>
 	"Reyes Ezequiel.h"
 
-1536346143 source:c:\users\usuario\desktop\trabajo práctico n°1 reyes ezequiel\reyes ezequiel.c
+1536352260 source:c:\users\usuario\desktop\trabajo práctico n°1 reyes ezequiel\reyes ezequiel.c
 	<stdio.h>
 	<stdlib.h>
 	"Reyes Ezequiel.h"

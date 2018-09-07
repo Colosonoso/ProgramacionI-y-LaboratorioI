@@ -49,19 +49,19 @@ int factorialprimeroperando(int primeroperando)
   int i;
   int resultadodelfactorialprimeroperando=1;
 
-  for(i=1; i<primeroperando;i++)
+  for(i=1; i<=primeroperando;i++)
      {
          resultadodelfactorialprimeroperando=resultadodelfactorialprimeroperando* i;
      }
-     return resultadodelfactorialprimeroperando;
+    return resultadodelfactorialprimeroperando;
   }
 int factorialsegundooperando(int segundooperando)
     {
       int i;
       int resultadodelfactorialsegundooperando=1;
-  for(i=1; i<segundooperando;i++)
+  for(i=1; i<=segundooperando;i++)
      {
          resultadodelfactorialsegundooperando=resultadodelfactorialsegundooperando* i;
      }
-     return resultadodelfactorialsegundooperando;
+      resultadodelfactorialsegundooperando;
     }
