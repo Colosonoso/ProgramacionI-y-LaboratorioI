@@ -20,14 +20,19 @@ int main()
     while(seguir=='s')
     {
 
-      printf("1-Ingrese el primer operando\n");
-      printf("2-Ingrese el segundo operando\n");
-      printf("3-Calcular la suma de ambos numeros\n");
-      printf("4-Calcular la resta de ambos numeros\n");
-      printf("5-Calcular la multiplicacion de ambos numeros\n");
-      printf("6-Calcular la division de ambos numeros\n");
-      printf("7-Calcular el factorial junto con los dos numeros\n");
-      printf("8-Salir\n");
+      printf("1- Ingrese el primer operando\n");
+      printf("2- Ingrese el segundo operando\n");
+      printf("3- Calcular las operaciones\n");
+      printf("a. Calcular la suma de ambos numeros\n");
+      printf("b. Calcular la resta de ambos numeros\n");
+      printf("c. Calcular la division de ambos numeros\n");
+      printf("d. Calcular la multiplicacion de ambos numeros\n");
+      printf("4- Los resultados son: \n");
+      printf("a. el resultado de la suma es :\n");
+      printf("b. el resultado de la resta es :\n");
+      printf("c. el resultado de la division es: \n");
+      printf("d. el resultado de la multiplicacion es :\n");
+      printf("e. el resultado del factorial es :\n");
       scanf("%d", &opcion);
 
       switch(opcion)
@@ -56,7 +61,12 @@ int main()
 
       break;
 
+      case 4:
 
+      printf("La suma con el numerouno y el numeroDos es %f", numerouno,numerodos,suma);
+      printf("La resta con el numerouno y el numeroDos es %f", numerouno,numerodos,resta);
+      printf("La division con el numerouno y el numeroDos es %f", numerouno,numerodos,division);
+      printf("La multiplicacion con el numerouno y el numeroDos es %f", numerouno,numerodos,multiplicacion);
       case 8:
       seguir= 'n';
       break;
