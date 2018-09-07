@@ -9,8 +9,8 @@ int main()
     float restar;
     float multiplicar;
     float dividir;
-    int flagnumero1=1;
-    int flagnumero2=1;
+    int flagnumero1=0;
+    int flagnumero2=0;
     int factorialnumerouno;
     int factorialnumerodos;
     int opcion=0;
@@ -66,7 +66,7 @@ int main()
 
       else
         {
-          printf("Error. Se ha ingresado algo que no es un numero, debe ingresar un numero");
+          printf("Error. Se ha ingresado algo que no es un numero, debe ingresar un numero\n");
         }
         system("pause");
         break;
@@ -75,34 +75,35 @@ int main()
 
        if(flagnumero1==1 &&flagnumero2==1)
          {
-          printf("La suma entre el numerouno y el numerodos es %f",numerouno,numerodos,suma);
-          printf("La resta entre el numerouno y el numerodos es %f",numerouno,numerodos,resta);
+          printf("La suma entre el numerouno y el numerodos es %f\n",numerouno + numerodos);
+          printf("La resta entre el numerouno y el numerodos es %f\n",numerouno - numerodos);
 
           if(numerodos==0)
             {
-              printf("Error.El numerodos tiene que ser distinto de 0, no se puede dividir por 0.Reingrese",numerouno,numerodos);
+              printf("Error.El numerodos tiene que ser distinto de 0, no se puede dividir por 0.Reingrese\n",numerouno,numerodos);
             }
 
            else
              {
-                printf("El resultado de la division entre el numerouno y el numerodos es %f",numerouno,numerodos,division);
+                printf("El resultado de la division entre el numerouno y el numerodos es %f\n",numerouno / numerodos);
              }
-           printf("El resultado de la multiplicacion entre el numerouno y el numerodos es %f",numerouno,numerodos,multiplicacion);
+           printf("El resultado de la multiplicacion entre el numerouno y el numerodos es %f\n",numerouno * numerodos);
 
 
            if(numerouno<0 && numerodos<0)
             {
-            printf("Error.El factorial de un numero que este en negativo no existe. Reingrese de nuevo");
+            printf("Error.El factorial de un numero que este en negativo no existe. Reingrese de nuevo\n");
             }
 
            else
            {
-            printf("El resultado del factorial del primer numero es", numerouno,factorialprimeroperando);
-            printf("El resultado del factorial del segundo numero es &f",numerodos,factorialsegundooperando);
+            printf("El resultado del factorial del primer numero es %f\n",numerouno,factorialnumerouno);
+            printf("El resultado del factorial del segundo numero es %f\n",numerodos,factorialnumerodos);
            }
 
          numerouno=0;
          numerodos=0;
+         break;
          }
       case 5:
       seguir= 'n';
